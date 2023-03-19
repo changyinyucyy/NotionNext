@@ -59,7 +59,7 @@ const BLOG = {
   // PrismJs 代码相关
   PRISM_JS_AUTO_LOADER: 'https://npm.elemecdn.com/prismjs@1.29.0/plugins/autoloader/prism-autoloader.min.js',
   PRISM_JS_PATH: 'https://npm.elemecdn.com/prismjs@1.29.0/components/',
-  PRISM_THEME_PATH: 'https://npm.elemecdn.com/prism-themes/themes/prism-a11y-dark.min.css', // 代码样式主题 更多参考 https://github.com/PrismJS/prism-themes
+  PRISM_THEME_PATH: 'https://npm.elemecdn.com/prism-themes/themes/prism-atom-dark.min.css', // 代码样式主题 更多参考 https://github.com/PrismJS/prism-themes
   CODE_MAC_BAR: true, // 代码左上角显示mac的红黄绿图标
   CODE_LINE_NUMBERS: process.env.NEXT_PUBLIC_CODE_LINE_NUMBERS || 'false', // 是否显示行号
 
@@ -92,7 +92,7 @@ const BLOG = {
   SAKURA: process.env.NEXT_PUBLIC_SAKURA || false, // 开关
 
   // 漂浮线段特效
-  NEST: process.env.NEXT_PUBLIC_NEST || true, // 开关
+  NEST: process.env.NEXT_PUBLIC_NEST || false, // 开关
 
   // 动态彩带特效
   FLUTTERINGRIBBON: process.env.NEXT_PUBLIC_FLUTTERINGRIBBON || false, // 开关
